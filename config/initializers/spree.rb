@@ -29,6 +29,17 @@ end
 
 Spree.user_class = "Spree::User"
 
+Spree.config do |config|
+  config.logo = 'noimage/plp.png'
+end
+
+Spree.config do |config|
+  config.admin_interface_logo = 'noimage/plp.png'
+end
+
+Spree.config do |config|
+  config.admin_show_version = false
+end
 
 # attachment_config = {
 #

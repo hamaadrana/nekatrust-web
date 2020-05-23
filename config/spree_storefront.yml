@@ -1,67 +1,152 @@
 default:
   navigation:
-    - title: Women
+    - title: Products
       subtitle: Categories
-      url: /t/women
+      url: /t/products
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Cable
+          :url: /t/products/cables
+        - :title: Phone Case
+          :url: /t/products/phone-cases
+        - :title: Tempered Glass
+          :url: /t/products/tempered-glasss
+        - :title: Airpod Case
+          :url: /t/products/airpod-cases
+        - :title: High Tech Products
+          :url: /t/products/high-tech-products
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
+          title:
           url: /t/new-collection/summer-2019
           image: 'meganav/promo_banner_left-first-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
+    - title: Company
       subtitle: Categories
-      url: /t/men
+      url: /t/company
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Business Card
+          :url: /t/company/business-cards
+        - :title: Business Gift
+          :url: /t/company/business-gifts
+        - :title: Business Office Products
+          :url: /t/company/business-office-products
+        - :title: Notebook
+          :url: /t/company/notebooks
+        - :title: Trophy
+          :url: /t/company/trophies
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
+          title:
           url: /t/new-collection/summer-2019
           image: 'meganav/promo_banner_left-second-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Customized Products
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/customized-products
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Your Phone Case
+          :url: /t/customized-products/phone-cases
+        - :title: Your Airpod Case
+          :url: /t/customized-products/airpod-cases
+        - :title: Other Customized Products
+          :url: /t/customized-products/others
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
+          title:
           url: /t/new-collection/summer-2019
           image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Promotional Offer
+      subtitle: Categories
+      url: /t/promotion
+      items:
+        - :title: Cable Offer
+          :url: /t/promotion/cable-offers
+        - :title: Case Offer
+          :url: /t/promotion/case-offers
+        - :title: Combined Offer
+          :url: /t/promotion/combined-offers
+      promo_banners:
+        - subtitle: New collection
+          title:
+          url: /t/new-collection/summer-2019
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+
+#    - title: Women
+#      subtitle: Categories
+#      url: /t/women
+#      items:
+#        - :title: Skirts
+#          :url: /t/women/skirts
+#        - :title: Dresses
+#          :url: /t/women/dresses
+#        - :title: Shirts and Blouses
+#          :url: /t/women/shirts-and-blouses
+#        - :title: Sweaters
+#          :url: /t/women/sweaters
+#        - :title: Tops and T-shirts
+#          :url: /t/women/tops-and-t-shirts
+#        - :title: Jackets and Coats
+#          :url: /t/women/jackets-and-coats
+#      promo_banners:
+#        - subtitle: New collection
+#          title: Summer 2019
+#          url: /t/new-collection/summer-2019
+#          image: 'meganav/promo_banner_left-first-category.jpg'
+#        - subtitle: Special Offers
+#          title: Get up to 30% off
+#          url: /t/special-offers/30-off
+#          image: 'meganav/promo_banner_right-first-category.jpg'
+#    - title: Men
+#      subtitle: Categories
+#      url: /t/men
+#      items:
+#        - :title: Shirts
+#          :url: /t/men/shirts
+#        - :title: T-shirts
+#          :url: /t/men/t-shirts
+#        - :title: Sweaters
+#          :url: /t/men/sweaters
+#        - :title: Jackets and Coats
+#          :url: /t/men/jackets-and-coats
+#      promo_banners:
+#        - subtitle: New collection
+#          title: Summer 2019
+#          url: /t/new-collection/summer-2019
+#          image: 'meganav/promo_banner_left-second-category.jpg'
+#        - subtitle: Special Offers
+#          title: Get up to 30% off
+#          url: /t/special-offers/30-off
+#          image: 'meganav/promo_banner_right-second-category.jpg'
+#    - title: Sportswear
+#      subtitle: Categories
+#      url: /t/sportswear
+#      items:
+#        - :title: Tops
+#          :url: /t/sportswear/tops
+#        - :title: Sweatshirts
+#          :url: /t/sportswear/sweatshirts
+#        - :title: Pants
+#          :url: /t/sportswear/pants
+#      promo_banners:
+#        - subtitle: New collection
+#          title: Summer 2019
+#          url: /t/new-collection/summer-2019
+#          image: 'meganav/promo_banner_left-third-category.jpg'
+#        - subtitle: Special Offers
+#          title: Get up to 30% off
+#          url: /t/special-offers/30-off
+#          image: 'meganav/promo_banner_right-third-category.jpg'

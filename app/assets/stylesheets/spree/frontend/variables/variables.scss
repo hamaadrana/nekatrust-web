@@ -18,3 +18,27 @@ $spree-header-max-width: 1440px;
 $spree-header-mobile-height: 50px;
 $spree-header-tablet-height: 75px;
 $spree-header-desktop-height: 75px;
+
+
+@media (min-width: 1200px) {
+  .header-spree-fluid-logo img {
+    max-height: 158px !important;
+    width: 176px !important;
+    margin-top: 3% !important;
+  }
+  .footer-spree .logo img {
+    height: 102px !important;
+  }
+}
+.header-spree-fluid-logo img {
+  max-height: 83px !important;
+}
+@media (min-width: 576px) {
+  .header-spree-fluid-logo img {
+    max-height: 110px !important;
+  }
+}
+
+.main-nav-bar-item {
+  font-size: 15px!important;
+}
