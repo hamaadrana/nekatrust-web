@@ -5,15 +5,15 @@ default:
       url: /t/categories/products
       items:
         - :title: Cable
-          :url: /t/products/cable
+          :url: /t/categories/products/cable
         - :title: Phone Case
-          :url: /t/products/phone-case
+          :url: /t/categories/products/phone-case
         - :title: Tempered Glass
-          :url: /t/products/tempered-glass
+          :url: /t/categories/products/tempered-glass
         - :title: Airpod Case
-          :url: /t/products/airpod-case
+          :url: /t/categories/products/airpod-case
         - :title: High Tech Products
-          :url: /t/products/high-tech-product
+          :url: /t/categories/products/high-tech-product
       promo_banners:
         - subtitle: New collection
           title:

@@ -53,7 +53,7 @@
     <div class="col-6">
 
       <div class="homepage-taxon-box mb-3">
-        <%= link_to spree.nested_taxons_path('men') do %>
+        <%= link_to spree.nested_taxons_path('products') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
@@ -66,7 +66,7 @@
       </div>
 
       <div class="homepage-taxon-box">
-        <%= link_to spree.nested_taxons_path('sportswear') do %>
+        <%= link_to spree.nested_taxons_path('customized-products') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
@@ -83,7 +83,7 @@
     <div class="col-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('women') do %>
+        <%= link_to spree.nested_taxons_path('promotion') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
             data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
