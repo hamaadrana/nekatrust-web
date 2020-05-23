@@ -5,15 +5,15 @@ default:
       url: /t/products
       items:
         - :title: Cable
-          :url: /t/products/cables
+          :url: /t/products/cable
         - :title: Phone Case
-          :url: /t/products/phone-cases
+          :url: /t/products/phone-case
         - :title: Tempered Glass
-          :url: /t/products/tempered-glasss
+          :url: /t/products/tempered-glass
         - :title: Airpod Case
-          :url: /t/products/airpod-cases
+          :url: /t/products/airpod-case
         - :title: High Tech Products
-          :url: /t/products/high-tech-products
+          :url: /t/products/high-tech-product
       promo_banners:
         - subtitle: New collection
           title:
@@ -28,15 +28,15 @@ default:
       url: /t/company
       items:
         - :title: Business Card
-          :url: /t/company/business-cards
+          :url: /t/company/business-card
         - :title: Business Gift
-          :url: /t/company/business-gifts
+          :url: /t/company/business-gift
         - :title: Business Office Products
           :url: /t/company/business-office-products
         - :title: Notebook
-          :url: /t/company/notebooks
+          :url: /t/company/notebook
         - :title: Trophy
-          :url: /t/company/trophies
+          :url: /t/company/trophy
       promo_banners:
         - subtitle: New collection
           title:
@@ -74,7 +74,7 @@ default:
         - :title: Case Offer
           :url: /t/promotion/case-offers
         - :title: Combined Offer
-          :url: /t/promotion/combined-offers
+          :url: /t/promotion/mix
       promo_banners:
         - subtitle: New collection
           title:
