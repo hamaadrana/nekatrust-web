@@ -2,7 +2,7 @@ default:
   navigation:
     - title: Products
       subtitle: Categories
-      url: /t/products
+      url: /t/categories/products
       items:
         - :title: Cable
           :url: /t/products/cable
