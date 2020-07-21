@@ -1,19 +1,19 @@
 default:
   navigation:
-    - title: Products
+    - title: PRODUITS
       subtitle: Categories
-      url: /t/categories/products
+      url: /t/categories/produits
       items:
-        - :title: Cable
-          :url: /t/categories/products/cables
-        - :title: Phone Case
-          :url: /t/categories/products/phone-cases
-        - :title: Tempered Glass
-          :url: /t/categories/products/tempered-glasss
-        - :title: Airpod Case
-          :url: /t/categories/products/airpod-cases
-        - :title: High Tech Products
-          :url: /t/categories/products/high-tech-products
+        - :title: CABLES
+          :url: /t/categories/produits/cables
+        - :title: COQUES POUR SMARTPHONES
+          :url: /t/categories/produits/coque-pour-smartphones
+        - :title: VERRES TREMPES
+          :url: /t/categories/produits/verres-trempes
+        - :title: COQUES POUR AIRPODS
+          :url: /t/categories/produits/coques-pour-airpods
+        - :title: AUTRES PRODUITS HIGH TECH
+          :url: /t/categories/produits/autres-produits-high-tech
       promo_banners:
         - subtitle: New collection
           title:
@@ -23,20 +23,19 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Company
+    - title: CLIENT PROFESSIONELLE
       subtitle: Categories
-      url: /t/company
+      url: /t/client-professionelle
       items:
-        - :title: Business Card
-          :url: /t/company/business-card
-        - :title: Business Gift
-          :url: /t/company/business-gift
-        - :title: Business Office Products
-          :url: /t/company/business-office-products
-        - :title: Notebook
-          :url: /t/company/notebook
-        - :title: Trophy
-          :url: /t/company/trophy
+        - :title: CARTES DE VISITE VIP
+          :url: /t/client-professionelle/cartes-de-visite-vip
+        - :title: BLOC NOTE HIGH TECH
+          :url: /t/client-professionelle/bloc-note-high-tech
+        - :title: COQUES PERSONNALISEES
+          :url: /t/client-professionelle/coques-personnalisees
+        - :title: AUTRES PRODUITS HIGH TECH
+          :url: /t/client-professionelle/autres-produits-high-tech
+
       promo_banners:
         - subtitle: New collection
           title:
@@ -46,16 +45,16 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Customized Products
+    - title: PRODUITS PERSONNALISES
       subtitle: Categories
-      url: /t/customized-products
+      url: /t/produits-personnalises
       items:
-        - :title: Your Phone Case
-          :url: /t/customized-products/phone-cases
-        - :title: Your Airpod Case
-          :url: /t/customized-products/airpod-cases
-        - :title: Other Customized Products
-          :url: /t/customized-products/others
+        - :title: VOTRE COQUE SMARTPHONE
+          :url: /t/produits-personnalises/votre-coque-smartphone
+        - :title: VOTRE COQUE AIRPOD
+          :url: /t/produits-personnalises/votre-coque-airpod
+        - :title: AUTRES PRODUITS PERSONNALISABLES
+          :url: /t/produits-personnalises/autres-produits-personnalisables
       promo_banners:
         - subtitle: New collection
           title:
@@ -65,16 +64,16 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-    - title: Promotional Offer
+    - title: OFFRE PROMOTIONNELLE
       subtitle: Categories
-      url: /t/promotion
+      url: /t/offre-promotionnelle
       items:
-        - :title: Cable Offer
-          :url: /t/promotion/cable-offers
-        - :title: Case Offer
-          :url: /t/promotion/case-offers
-        - :title: Combined Offer
-          :url: /t/promotion/mix
+        - :title: OFFRES SUR CABLES
+          :url: /t/offre-promotionnelle/offres-sur-cables
+        - :title: OFFRES SUR COQUE
+          :url: /t/offre-promotionnelle/offres-sur-coque
+        - :title: AUTRES OFFRES
+          :url: /t/offre-promotionnelle/autres-offres
       promo_banners:
         - subtitle: New collection
           title:
@@ -84,69 +83,3 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-third-category.jpg'
-
-#    - title: Women
-#      subtitle: Categories
-#      url: /t/women
-#      items:
-#        - :title: Skirts
-#          :url: /t/women/skirts
-#        - :title: Dresses
-#          :url: /t/women/dresses
-#        - :title: Shirts and Blouses
-#          :url: /t/women/shirts-and-blouses
-#        - :title: Sweaters
-#          :url: /t/women/sweaters
-#        - :title: Tops and T-shirts
-#          :url: /t/women/tops-and-t-shirts
-#        - :title: Jackets and Coats
-#          :url: /t/women/jackets-and-coats
-#      promo_banners:
-#        - subtitle: New collection
-#          title: Summer 2019
-#          url: /t/new-collection/summer-2019
-#          image: 'meganav/promo_banner_left-first-category.jpg'
-#        - subtitle: Special Offers
-#          title: Get up to 30% off
-#          url: /t/special-offers/30-off
-#          image: 'meganav/promo_banner_right-first-category.jpg'
-#    - title: Men
-#      subtitle: Categories
-#      url: /t/men
-#      items:
-#        - :title: Shirts
-#          :url: /t/men/shirts
-#        - :title: T-shirts
-#          :url: /t/men/t-shirts
-#        - :title: Sweaters
-#          :url: /t/men/sweaters
-#        - :title: Jackets and Coats
-#          :url: /t/men/jackets-and-coats
-#      promo_banners:
-#        - subtitle: New collection
-#          title: Summer 2019
-#          url: /t/new-collection/summer-2019
-#          image: 'meganav/promo_banner_left-second-category.jpg'
-#        - subtitle: Special Offers
-#          title: Get up to 30% off
-#          url: /t/special-offers/30-off
-#          image: 'meganav/promo_banner_right-second-category.jpg'
-#    - title: Sportswear
-#      subtitle: Categories
-#      url: /t/sportswear
-#      items:
-#        - :title: Tops
-#          :url: /t/sportswear/tops
-#        - :title: Sweatshirts
-#          :url: /t/sportswear/sweatshirts
-#        - :title: Pants
-#          :url: /t/sportswear/pants
-#      promo_banners:
-#        - subtitle: New collection
-#          title: Summer 2019
-#          url: /t/new-collection/summer-2019
-#          image: 'meganav/promo_banner_left-third-category.jpg'
-#        - subtitle: Special Offers
-#          title: Get up to 30% off
-#          url: /t/special-offers/30-off
-#          image: 'meganav/promo_banner_right-third-category.jpg'
